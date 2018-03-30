@@ -14,6 +14,10 @@
 <style lang="less">
   @import "./style/normalize.css";
 
+  #app {
+    text-align: center;
+  }
+
   body {
     font-family: 'Microsoft YaHei';
   }
