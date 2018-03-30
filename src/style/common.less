@@ -1,0 +1,125 @@
+@charset "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 14px;
+    font-family: '微软雅黑';
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+a:link,a:visited,a:active {
+    color: #000;
+}
+/* 清除浮动 */
+.clear() {
+    &:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+/* 浮动 */
+.fl() {
+    float: left;
+}
+.fr() {
+    float: right;
+}
+.center2(@w:1200px) {
+    width: @w;
+    margin: 0 auto;
+}
+.box-shadow (){
+    -moz-box-shadow: 1px 1px 3px rgba(0,0,0,.1),-1px -1px 3px rgba(0,0,0,.1);
+    -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,.1),-1px -1px 3px rgba(0,0,0,.1);
+    box-shadow: 1px 1px 3px rgba(0,0,0,.1), -1px -1px 3px rgba(0,0,0,.1);
+}
+.center ( @w , @style ){
+    width: @w;
+    margin: @style;
+}
+.border-radius(@n){
+    -moz-border-radius: @n;
+    -weiket-border-radius: @n;
+    border-radius: @n;
+}
+.hover( @color: #f49204 ){
+    &:hover{
+        color: @color;
+    }
+}
+.font(@size,@color){
+    font-size: @size;
+    color: @color;
+}
+.Button(@color: #fff){
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+    background-color: @color;
+}
+.input(){
+    overflow: hidden;
+    background: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+}
+.textarea(){
+    background: transparent;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+    resize:none;
+    overflow: hidden;
+}
+.lf(){
+    float: left;
+}
+.rt(){
+    float: right;
+}
+.box-border(){
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.min-width(){
+    min-width: 1250px;
+}
+@right-box-ml: 272px;
+@outer-box-m: 10px;
+@bg-color:#f7fcff;
+@bd-color:#d5e7ef;
+@theme-color:#56abf2;
+
+/*表格样式*/
+.table{
+    tr{
+        td{
+            border: solid 1px #ddd;
+            height: 35px;
+            text-align: center;
+        }
+    }
+    caption{
+        margin-bottom: 16px;
+    }
+}

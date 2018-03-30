@@ -14,7 +14,14 @@
   },
   "dependencies": {
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "axios": "^0.16.2",
+    "element-ui": "^2.0.2",
+    "es6-promise": "^4.1.1",
+    "jquery": "^3.2.1",
+    "js-cookie": "^2.1.4",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

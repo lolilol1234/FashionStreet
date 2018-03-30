@@ -1,0 +1,26 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-size: 14px;
+  font-family: '微软雅黑';
+  height: 100%;
+}
+html {
+  height: 100%;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:link,
+a:visited,
+a:active {
+  color: #000;
+}
+/* 清除浮动 */
+/* 浮动 */
