@@ -1,16 +1,6 @@
 import { Message } from 'element-ui';
 // api接口地址
-export const apiUrl = 'http://120.76.230.93:8195/api/';
-export const apiUrl2 = 'http://120.76.230.93:8095/api/';//电子台账API
-// export const apiUrl = 'http://192.168.10.161/BZHAPI.2.0/api/';//李少挺ip
-// export const apiUrl = 'http://192.168.10.133/BZHAPI.2.0/api/';//王垚峰ip
-//附件上传地址
-export const fileUploadUrl = 'http://120.76.230.93:8195/api/FileOperation/FileUpLoad';
-export const fileUploadUr3 = 'http://120.76.230.93:8095/api/FileOperation/FileUpLoad';
-// export const fileUploadUrl = 'http://192.168.10.149/BZHAPI.2.0/api/FileOperation/FileUpload';
-//地图V3、V2地址
-// export const mapV3Url = 'http://120.76.230.93:8080/BZH/BZH/LINAN/FrontPage/BZH/mapV3/map.html';
-// export const mapV2Url = 'http://120.76.230.93:8080/BZH/BZH/LINAN/FrontPage/BZH/mapV2/map.html';
+export const apiUrl = 'http://127.0.0.1:8195/api/';
 //获取文本中img标签的src
 export function getImgSrc(str){
     var regex = /<img.*?src="(.*?)"/;
